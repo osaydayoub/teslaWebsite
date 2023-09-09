@@ -74,33 +74,58 @@ header{
   }
   
   .button1:hover {
-    /* background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0, 0.4);   */
     backdrop-filter: blur(15px);
     color: white;
   }
+
   .threeicons{
-    /* border: 3px solid black; */
+    /* border: 1px solid black; */
     position: absolute;
     height: 3.57%;  
-    width:8.06%;
+    width:9.5%;
     top: 2.85%;
-    right: 3.22%;
+    right: 2.85%;
   }
+  
   .icon1{
-    position: absolute;
-    left: 0%;
-
+    position: sticky;
+    /* left: 0%; */
   }
   .icon2{
-    position: absolute;
-    right: 38%; 
+    position: sticky;
+    /* right: 38%;  */
   }
   .icon3{
-    position: absolute;
-    right: 0%;
-
+    position: sticky;
+    /* right: 0%; */
   }
+  .i-button {
+    border: none;   
+    cursor: pointer;
+    border-radius: 9px;
+  }
+  .i-button1 {
+    background-color: transparent;
+    color: white; 
+  }
+  
+  .i-button1:hover {
+    backdrop-filter: blur(15px);
+    color: white;
+  }
+
+  /* .wordsInMid{
+    border: 1px solid black;
+    color: white;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    position: absolute;
+    top:16.42%;
+    display: inline-block;
+
+  } */
+
 
 
 .second {
