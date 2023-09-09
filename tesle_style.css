@@ -130,7 +130,6 @@ header{
     width: 25%;
     height: 25%;
     margin-top: 0%;
-    
   }
   .t1{
     font-size:3.57vh ;
@@ -138,7 +137,45 @@ header{
   .t2{
     font-size:2.71vh ;
   }
+.statisceInEnd{
+    position: absolute;
+    /* border: 1px solid rgb(239, 5, 5); */
+    border:  solid rgba(0,0,0,0);
+    color: white;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Rubik', sans-serif; 
+    font-size:4vh ;
+    text-align: center;
+    line-height: 5vh;
+    top:69%;
+    left: 33.87%;
+    width: 32.25%;
+    height: 9.5%;
+    margin-top: 0%;
+}
+.st1{
+    position: absolute;
+    left: 0%;
+}
+.st2{
+    position: absolute;
+    left: 39%;
+}
+.st3{
+    position: absolute;
+    right: 0%;
+}
 
+.st1-2{
+    font-size:2.2vh ;
+}
+.st2-2{
+    font-size:2.2vh ;
+}
+.st3-2{
+    font-size:2.2vh ;
+}
 
 
 .second {
