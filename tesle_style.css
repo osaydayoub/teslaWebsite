@@ -5,8 +5,8 @@ header{
     position: sticky;
     top: 0;
     z-index: 999;
-    border-top-left-radius:9px;
-    background-color: #221d41;    
+    border-top-left-radius:9px; 
+    background-image: radial-gradient(54.97% 272.54% at 27.36% -134.72%,rgba(108,148,255,.92) 0,rgba(0,0,0,.92) 100%);
   }
   .navbar{
     border:  solid rgba(0,0,0,0);
@@ -22,14 +22,16 @@ header{
 
 .container {
     position: relative;
-    height: 360vh;
+    height: 420vh;
     width: vw;     
 }
 
 .first {
+    /* border: 3px solid rgb(194, 10, 10); */
     position: absolute;
-    height: 34%;
+    height: 29%;
     width: 100%;
+    z-index: 1;
     
 }
 
@@ -185,7 +187,7 @@ header{
     font-family: 'Anton', sans-serif;
     font-family: 'Rubik', sans-serif; 
     text-align: center;
-    top:82%;
+    top:83.5%;
     left: 30.64%;
     width: 40%;
     height: 5%;
@@ -250,27 +252,218 @@ header{
     background-color: white;
     color: black;
   }
-
-
-
-
-
-
+  .last{
+    position: absolute;
+    /* border: 1px solid rgb(239, 5, 5); */
+    border:  solid rgba(0,0,0,0);
+    font-size: 2.14vh;
+    color: white;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Rubik', sans-serif; 
+    text-align: center;
+    bottom:0.4%;
+    left: 28.5%;
+    width: 45%;
+    height: 6.5%;
+    margin-top: 0%;
+  }
 
 .second {
-    border: 3px solid black;
-    background-color: white;
+    /* border: 3px solid black; */
     position: absolute;
-    height: 33%;
+    height: 37%;
     width: 100%;
-    bottom: 33%;
+    bottom: 34%;
+}
+.carPhoto img{
+    position: absolute;
+    /* border: 1px solid rgb(239, 5, 5);   */
+    top: -18%;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    z-index: -1;
+}
+
+.textE{
+    position: absolute;
+    /* border: 1px solid rgb(239, 5, 5); */
+    border:  solid rgba(0,0,0,0);
+    font-size: 3.75vh;
+    color: #171a20;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Rubik', sans-serif; 
+    text-align: left;
+    bottom:0%;
+    left: 12.25%;
+    width: 74%;
+    height: 33%;
+    margin-top: 0%;
+}
+.TE1{
+    position: absolute;
+    /* border: 1px solid rgb(239, 5, 5); */
+    width: 31.5%;
+    height: 15%;
+    font-size: 5vh;
+    color: #171a20;
+    font-weight:bold;
+}
+.TE2{
+    /* border: 1px solid rgb(239, 5, 5); */
+    position: absolute;
+    top: 20%;
+    font-size: 2.5vh;
+    color: #393C41;
+}
+.TE3{
+    /* border: 1px solid rgb(239, 5, 5); */
+    position: absolute;
+    width: 54.3%;
+    height: 40%;
+    top:33%;
+
+    font-size: 2.5vh;
+    color: #393C41;
+}
+.TE4{
+    /* border: 1px solid rgb(239, 5, 5); */
+    position: absolute;
+    width: 45.3%;
+    height: 40%;
+    top:33%;
+    right: 0%;
+    font-size: 2.5vh;
+    color: #393C41;
 }
  
 .third {
-    border: 3px solid black;
+    /* border: 3px solid black; */
     background-color: white;
     position: absolute;
-    height: 33%;
+    height: 34%;
     width: 100%;
     bottom: 0%;
 }
+
+.mapPhoto img{
+    /* border: 1px solid rgb(239, 5, 5);   */
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.sec3-0{
+    position: absolute;
+    /* border: 1px solid rgb(239, 5, 5); */
+    /* border:  solid rgba(0,0,0,0); */
+    color: #171a20;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Rubik', sans-serif; 
+    text-align: left;
+    top: 8%;
+    left: 4.83%;
+    width: 20%;
+    height: 58%;
+    margin-top: 0%;
+}
+
+.sec3-1{
+    position: absolute;
+    /* border: 1px solid rgb(239, 5, 5); */
+    font-weight: bold;
+    font-size: 3.75vh;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 15%;
+}
+.sec3-11{
+    font-size:2.14vh;
+}
+
+.sec3-2{
+    position: absolute;
+    /* border: 1px solid rgb(239, 5, 5); */
+    font-weight: bold;
+    font-size: 3.75vh;
+    top: 38%;
+    left: 0%;
+    width: 100%;
+    height: 15%;
+}
+.sec3-21{
+    font-size:2.14vh;
+}
+
+.sec3-3{
+    position: absolute;
+    /* border: 1px solid rgb(239, 5, 5); */
+    font-weight: bold;
+    font-size: 3.75vh;
+    bottom: 10%;
+    left: 0%;
+    width: 100%;
+    height: 15%;
+}
+.sec3-31{
+    font-size:2.14vh;
+}
+
+
+
+.foter3{
+    position: absolute;
+    /* border:  solid rgba(0,0,0,0); */
+    font-size: 3.75vh;
+    color: black;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Rubik', sans-serif; 
+    bottom:0%;
+    left: 12.25%;
+    width: 80%;
+    height: 33%;
+    margin-top: 0%;
+}
+
+.go{
+    position: absolute; 
+    font-size: 6vh;
+    font-weight: bold;
+    top: 15%;
+    left: 0%;
+}
+.buttonlast{
+    position: absolute;
+    width: 23%;
+    height: 15%;
+    top:40%;
+    left: 0%;
+}
+.button-3-1-last {
+    background-color: white;
+    color: black;
+    border:0.4vh solid black;
+  }
+  
+  .button-3-1-last:hover {
+    background-color: black;
+    color: white;
+    border:0.4vh solid black;
+  }
+  .lasttext{
+    position: absolute;
+    font-size: 3vh;
+    color: #171a20;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Rubik', sans-serif; 
+    text-align: left;
+    top:15%;
+    right: 0%;
+    width: 65%;
+    height: 33%;
+    margin-top: 0%;
+    margin-left: 10%;
+  }
